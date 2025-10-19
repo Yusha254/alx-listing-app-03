@@ -26,7 +26,7 @@ export interface ButtonProps {
   children?: ReactNode;
   onClick?: () => void;
   type?: "button" | "submit" | "reset";
-  variant?: "search" | "profile" | "info" | "primary" | "secondary";
+  variant?: "search" | "profile" | "info" | "primary" | "secondary" | "reserve";
   icon?: ReactNode; // for react-icons later
 }
 
@@ -38,4 +38,20 @@ export interface PillProps {
   label: string;
   active?: boolean;
   onClick?: () => void;
+}
+
+export interface BookingDetails {
+  propertyName: string;
+  image: string;
+  rating: number;
+  reviews: number;
+  startDate: string;
+  time: string;
+  totalNights: number;
+  bookingFee: number;
+  price: number;
+}
+
+export interface OrderSummaryProps {
+  bookingDetails: BookingDetails;
 }

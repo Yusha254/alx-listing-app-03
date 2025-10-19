@@ -22,6 +22,8 @@ const Button = ({
       "rounded-full bg-[#34967c] text-white px-4 py-1 text-sm hover:bg-[#2d7d68] focus:ring-blue-500",
     secondary:
       "rounded-full bg-white text-[#34967c] border border-[#34967c] px-4 py-1 text-sm hover:bg-gray-100 focus:ring-gray-300",
+    reserve:
+      "bg-[#34967c] hover:bg-[#2d7d68] text-white w-full py-3 rounded-lg font-medium transition focus:ring-blue-500",
   };
 
   return (
