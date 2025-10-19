@@ -81,11 +81,11 @@ const BookingForm = () => {
 
         {/* Card Info */}
         <div className="mt-4 border border-gray-300 rounded-md">
-          <div className="p-2 border-b border-gray-300">
+          <div className="border-b border-gray-300">
             <input
               type="text"
               placeholder="Card number"
-              className="w-full border-none focus:ring-0 text-sm"
+              className="w-full border-none focus:ring-1 text-sm p-2"
             />
           </div>
           <div className="grid grid-cols-2 divide-x divide-gray-300">
