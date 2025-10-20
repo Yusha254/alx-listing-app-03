@@ -17,7 +17,7 @@ const OrderSummary: React.FC<OrderSummaryProps> = ({ bookingDetails }) => {
   const grandTotal = bookingFee + price;
 
   return (
-    <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+    <div className="p-6 rounded-lg shadow-sm border border-gray-200 h-fit my-2">
       {/* Section title */}
       <h2 className="text-lg font-semibold mb-4">Review Order Details</h2>
 
@@ -64,12 +64,10 @@ const OrderSummary: React.FC<OrderSummaryProps> = ({ bookingDetails }) => {
           <span><strong className="text-gray-950">${bookingFee.toFixed(2)}</strong></span>
         </div>
 
-        <div className="flex justify-between text-gray-600 mb-2">
+        <div className="flex justify-between text-gray-600 mb-6">
           <span>Subtotal</span>
           <span><strong className="text-gray-950">${price.toFixed(2)}</strong></span>
         </div>
-
-        <hr className="my-3" />
 
         <div className="flex justify-between text-base font-semibold">
           <span>Grand Total</span>

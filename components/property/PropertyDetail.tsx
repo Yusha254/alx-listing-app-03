@@ -16,7 +16,6 @@ import {
   FaTree,
   FaCar,
   FaUmbrellaBeach,
-  FaBed,
   FaLeaf,
   FaSpa,
   FaWater,
@@ -26,13 +25,12 @@ import {
   FaGlobeAmericas,
   FaDoorOpen,
   FaSolarPanel,
-  FaWineGlassAlt,
   FaHotTub,
   FaBus,
   FaCompass,
 } from "react-icons/fa";
-import { GiHiking, GiCampfire, GiCctvCamera, GiTreehouse } from "react-icons/gi";
-import { MdFreeBreakfast, MdOutlineBedroomParent } from "react-icons/md";
+import { GiHiking, GiCampfire, GiTreehouse } from "react-icons/gi";
+import { MdFreeBreakfast } from "react-icons/md";
 import { IoIosFlash } from "react-icons/io";
 import { IoBedSharp, IoPeopleSharp, IoKeyOutline } from "react-icons/io5";
 import { FiUser } from "react-icons/fi";

@@ -1,6 +1,5 @@
 import BookingForm from "@/components/booking/BookingForm";
 import OrderSummary from "@/components/booking/OrderSummary";
-import CancellationPolicy from "@/components/booking/CancellationPolicy";
 
 export default function BookingPage() {
   const bookingDetails = {
